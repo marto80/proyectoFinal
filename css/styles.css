@@ -7,9 +7,6 @@
 	box-sizing: border-box;
 }
 
-
-
-
 nav{
 	background-color: rgb(255, 204, 143, .8);
 	width: 100%;
@@ -228,33 +225,6 @@ nav li:hover {
 	min-width: 200px;
 }
 
-@media (min-width:768px){
-	.table__container{
-	font-size: 1em;
-}
-
-	#tit__carousel{
-	font-size: 3rem;
-	font-weight: bolder;
-	}
-	.carousel-item p {
-	font-size: 1.5em;
-	}
-}
-
-@media (min-width:1024px){
-	.table__container{
-		font-size: 1.3em;
-	}
-	#tit__carousel{
-		font-size: 4rem;
-		font-weight: bolder;
-	}
-	.carousel-item p {
-		font-size: 2em;
-	}
-}
-
 table{
 	background-color: #e8e8e8;
 	text-align: left;
@@ -272,4 +242,48 @@ th, td{
 
 .entrenamiento__destacado {
 	background-color: #CA82FF;
+}
+
+
+/* Break tablet */
+
+@media (min-width:768px){
+	.table__container{
+	font-size: 1em;
+}
+
+	#tit__carousel{
+	font-size: 3rem;
+	font-weight: bolder;
+	}
+	.carousel-item p {
+	font-size: 1.5em;
+	}
+}
+
+
+/* Break desktop */
+
+@media (min-width:1024px){
+	.table__container{
+		font-size: 1.3em;
+	}
+	#tit__carousel{
+		font-size: 4rem;
+		font-weight: bolder;
+	}
+	.carousel-item p {
+		font-size: 2em;
+	}
+}
+
+
+.video__entrevista{
+	margin-top: 7%;
+	padding: 3%;
+}
+
+.p__video__entrevista{
+	margin-top: 5%;
+	padding-left: 5%;
 }

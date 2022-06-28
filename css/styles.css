@@ -217,22 +217,18 @@ nav li:hover {
 }
 
 /* Seccion Horarios */
-.table__container{
-	margin: 3%;
-	padding: 5%;
-	width: 95%;
-	font-size: 0.6em;
-	min-width: 200px;
+.box__horarios{
+	background-color:lightgrey;
+	width: 100%;
+	height: 50px;
+	border-radius: 1%;
+	font-size: 0.8em;
+	padding: 3%;
 }
 
-table{
-	background-color: #e8e8e8;
-	text-align: left;
-}
-
-th, td{
-	padding: 2%;
-	border: solid 5px rgb(255, 255, 255);
+.nada { 
+	height: 0px;
+	padding: 0%;
 }
 
 .meditacion__destacado{
@@ -244,13 +240,20 @@ th, td{
 	background-color: #CA82FF;
 }
 
-
 /* Break tablet */
 
 @media (min-width:768px){
 	.table__container{
 	font-size: 1em;
 }
+
+	.box__horarios{
+	width: 100%;
+	height: 50px;
+	border-radius: 2%;
+	font-size: 0.8em;
+	padding: 3%;
+	}
 
 	#tit__carousel{
 	font-size: 3rem;
@@ -286,4 +289,9 @@ th, td{
 .p__video__entrevista{
 	margin-top: 5%;
 	padding-left: 5%;
+}
+
+.img__seccion{
+	margin-top: 3%;
+	padding: 5%;
 }

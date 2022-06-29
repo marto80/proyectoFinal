@@ -89,7 +89,7 @@ nav li:hover {
 }
 
 .bot__2{
-	background-color: lightgray;
+	background-color: #CA82FF;
 	padding: 2%;
 	border: none;
 	font-weight: bold;
@@ -99,9 +99,9 @@ nav li:hover {
 }
 
 .bot__2:hover{
-	background-color: #CA82FF;
+	background-color: #FFCC8F;
 	cursor: pointer;
-	font-weight: italic;
+	font-weight: normal;
 }
 
 .contacto {
@@ -146,6 +146,36 @@ nav li:hover {
 
 .carousel-item p {
 	font-size: 1em;
+}
+
+.cards__estilos{
+	padding: 5%;
+	
+}
+
+.cards__fondo{
+	background-color: #FFDAAF;
+}
+
+.bot__3{
+	background-color: #CA82FF;
+	padding: 2%;
+	border-radius: 5%;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.bot__3:hover{
+	background-color: #FFCC8F;
+	padding: 1%;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.card h5{
+	font-weight: bolder;
 }
 
 
@@ -220,9 +250,9 @@ nav li:hover {
 .box__horarios{
 	background-color:lightgrey;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	border-radius: 1%;
-	font-size: 0.8em;
+	font-size: 1em;
 	padding: 3%;
 }
 
@@ -238,6 +268,44 @@ nav li:hover {
 
 .entrenamiento__destacado {
 	background-color: #CA82FF;
+}
+
+.video__entrevista{
+	margin-top: 7%;
+	padding: 3%;
+}
+
+.p__video__entrevista{
+	margin-top: 5%;
+	padding-left: 5%;
+}
+
+.img__seccion{
+	margin-top: 3%;
+	padding: 5%;
+}
+
+.bullets__empresas{
+	display: list-item;
+	padding: 5%;
+	text-align: justify;
+	font-size: 1.1em;
+}
+
+.estilo__empresas{
+	padding-top: 8%;
+}
+
+.items__empresas{
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+
+.img__empresas{
+	width: 100%;
+	height: 100%;
+	padding: 3%;
 }
 
 /* Break tablet */
@@ -278,20 +346,4 @@ nav li:hover {
 	.carousel-item p {
 		font-size: 2em;
 	}
-}
-
-
-.video__entrevista{
-	margin-top: 7%;
-	padding: 3%;
-}
-
-.p__video__entrevista{
-	margin-top: 5%;
-	padding-left: 5%;
-}
-
-.img__seccion{
-	margin-top: 3%;
-	padding: 5%;
 }
